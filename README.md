@@ -23,7 +23,7 @@ i3lock -E "bash -c 'echo \"Someone typed wrong password\" | mail -s ok cve@examp
 _How to build:_
 
 ```
-git clone https://github.com/loadaverage/i3lock.git
+git clone https://github.com/loadaverage/i3lock-wrongpass.git
 git checkout wrong_pass_exec
 make && make install
 ```
